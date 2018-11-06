@@ -1,0 +1,26 @@
+{
+  "name": "purbey-solar",
+  "version": "1.0.0",
+  "description": "Purbey solar website",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhil051097/purbey-solar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhil051097/purbey-solar/issues"
+  },
+  "homepage": "https://github.com/nikhil051097/purbey-solar#readme"
+}
