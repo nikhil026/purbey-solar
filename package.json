@@ -1,6 +1,10 @@
 {
   "name": "purbey-solar",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.3.0",
+    "npm": "6.x"
+  },
   "description": "Purbey solar website",
   "main": "index.js",
   "dependencies": {
@@ -9,8 +13,10 @@
     "express": "^4.16.4",
     "nodemailer": "^4.6.8"
   },
+
   "devDependencies": {},
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
