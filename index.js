@@ -37,6 +37,9 @@ app.get('/buy-acdb-dcdb-ajb-for-rooftop-solar-in-india.html',(req,res)=>{
 app.get('/buy-adani-solar-panels-in-india.html',(req,res)=>{
  res.sendFile(path.join(__dirname, './public/views/buy-adani-solar-panels-in-india.html'));
 });
+app.get('/buy-canadian-solar-panels-in-india.html',(req,res)=>{
+ res.sendFile(path.join(__dirname, './public/views/buy-canadian-solar-panels-in-india.html'));
+});
 app.get('/buy-consul-neowatt-solar-inverter-in-india.html',(req,res)=>{
  res.sendFile(path.join(__dirname, './public/views/buy-consul-neowatt-solar-inverter-in-india.html'));
 });
@@ -49,8 +52,11 @@ app.get('/buy-fronius-solar-inverter-in-india.html',(req,res)=>{
 app.get('/buy-jinko-solar-panels-in-india.html',(req,res)=>{
  res.sendFile(path.join(__dirname, './public/views/buy-jinko-solar-panels-in-india.html'));
 });
-app.get('/buy-sma-solar-inverter-in-india.HTML',(req,res)=>{
- res.sendFile(path.join(__dirname, './public/views/buy-sma-solar-inverter-in-india.HTML'));
+app.get('/buy-sma-solar-inverter-in-india.html',(req,res)=>{
+ res.sendFile(path.join(__dirname, './public/views/buy-sma-solar-inverter-in-india.html'));
+});
+app.get('/buy-sma-solar-inverter-in-india.html',(req,res)=>{
+ res.sendFile(path.join(__dirname, './public/views/buy-sma-solar-inverter-in-india.html'));
 });
 app.get('/buy-solar-batteries-in-india.html',(req,res)=>{
  res.sendFile(path.join(__dirname, './public/views/buy-solar-batteries-in-india.html'));
@@ -121,12 +127,12 @@ app.get('/madhubani-solar.html',(req,res)=>{
 app.get('/muzaffarpur-solar.html',(req,res)=>{
  res.sendFile(path.join(__dirname, './public/views/muzaffarpur-solar.html'));
 });
-app.get('/package-lock.json',(req,res)=>{
- res.sendFile(path.join(__dirname, './public/views/package-lock.json'));
-});
-app.get('/package.json',(req,res)=>{
- res.sendFile(path.join(__dirname, './public/views/package.json'));
-});
+// app.get('/package-lock.json',(req,res)=>{
+//  res.sendFile(path.join(__dirname, './public/views/package-lock.json'));
+// });
+// app.get('/package.json',(req,res)=>{
+//  res.sendFile(path.join(__dirname, './public/views/package.json'));
+// });
 app.get('/patna-solar.html',(req,res)=>{
  res.sendFile(path.join(__dirname, './public/views/patna-solar.html'));
 });
